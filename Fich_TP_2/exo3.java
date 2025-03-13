@@ -13,6 +13,7 @@ public class exo3 {
         System.out.println("X<Y && Z<R : "+((x<y)&&(z<r)));
         System.out.println("X>Y || Z<R : "+((x>y)||(z<r)));
         System.out.println("!(Z<R) : "+!(z<r));
+        
 
     }
     
