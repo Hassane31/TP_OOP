@@ -2,10 +2,10 @@ package Fich_TP_3;
 
 public class licence {
 
-    double calc ( int n ){
-        double S = 1 ;
+  public double calc ( int n ){
+        double S = 1.0 ;
         for (int i = 2 ; i<=n ;i++){
-            S+=(double)1/(double)(i);
+            S+=1.0/(i);
         }
    
    return S; }
