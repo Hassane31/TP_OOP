@@ -1,4 +1,4 @@
-package Fich_TP_3;
+package Fich_TP_3.exo1;
 import java.util.Scanner;
 class mainclass {
     public static void main(String[] args) {
