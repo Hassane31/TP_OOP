@@ -1,47 +1,48 @@
 package Fich_TP_3.exo2;
 import java.util.Scanner;
 
-public class classM {
-    Scanner input = new Scanner(System.in);
+ public class classM {
+   static Scanner input = new Scanner(System.in);
   
-   private  String month;
-   private int year;
+   static String month;
+  static int year;
 
-    public  void setMonth() {
-        String month = input.next();
+    public static  void setMonth() {
+         month = input.next();
     }
 
-    public  void setYear() {
-        int year = input.nextInt();
-    }
+    
 
-public  void Nbr_days (M){
+public static  void Nbr_days (){
     switch (month) {
-        case "January" : System.out.println("31 day");
+        case "January" : System.out.println("31 days");
             break;
-            case "March" : System.out.println("31 day");
+            case "March" : System.out.println("31 days");
             break;
-            case "April" : System.out.println("30 day");
+            case "April" : System.out.println("30 days");
             break;
-            case "May" : System.out.println("31 day");
+            case "May" : System.out.println("31 days");
             break;
-            case "June" : System.out.println("30 day");
+            case "June" : System.out.println("30 days");
             break;
-            case "Julay" : System.out.println("31 day");
+            case "Julay" : System.out.println("31 days");
             break;
-            case "August" : System.out.println("31 day");
+            case "August" : System.out.println("31 days");
             break;
-            case "September" : System.out.println("30 day");
+            case "September" : System.out.println("30 days");
             break;
-            case "October" : System.out.println("31 day");
+            case "October" : System.out.println("31 days");
             break;
-            case "November" : System.out.println("30 day");
+            case "November" : System.out.println("30 days");
             break;
-            case "December" : System.out.println("31 day");
+            case "December" : System.out.println("31 days");
             break;
 
-            case "February" : if((year % 400 == 0 )||(year %4==0)&&(year % 100!= 0))System.out.println("29 day");
-            else System.out.println("28 day");
+            case "February" :
+            System.out.println("give the year :");
+                year = input.nextInt();
+             if((year % 400 == 0 )||(year %4==0)&&(year % 100!= 0))System.out.println("29 days");
+            else System.out.println("28 days");
 
             break;
 
