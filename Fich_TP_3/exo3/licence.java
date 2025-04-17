@@ -1,4 +1,4 @@
-package Fich_TP_3.exo1;
+package Fich_TP_3.exo3;
 
 public class licence {
 
