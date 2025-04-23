@@ -5,6 +5,7 @@ public class exo3 {
         int a=3 ,b=5 ;
         int x=3,y=5 ,z=2,r=6;
         char lettre ='i',car='j';
+        
         System.out.println("A != B : "+(a!=b));
         System.out.println("A + 2 == B : "+(a+2==b));
         System.out.println("A+8 < 2*B : "+(a+8<2*b));

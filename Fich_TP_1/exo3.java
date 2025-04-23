@@ -12,6 +12,5 @@ public class exo3 {
         input.close();
         float r = (float) a / b;
         System.out.println("A/B=" + r);
-
     }
 }
