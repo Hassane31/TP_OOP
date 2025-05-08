@@ -1,4 +1,4 @@
-package tp_5.exo_1;
+package Fich_TP_5.exo_1;
 public class mainClass {
     public static void main(String[] args) {
         ClassCompt compt1 = new ClassCompt("LYNA ",1221) ;

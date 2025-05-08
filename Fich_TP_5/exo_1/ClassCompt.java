@@ -1,4 +1,4 @@
-package tp_5.exo_1;
+package Fich_TP_5.exo_1;
 import java.util.Scanner;
 public class ClassCompt {
     Scanner input = new Scanner( System.in);
